@@ -1,0 +1,221 @@
+.InThePress_reset-all_zxIo7,
+.InThePress_reset-heading_1ickh,
+.InThePress_reset-list_3YLNB {
+    @extend .Default_Layout;
+}
+
+.InThePress_reset-list_3YLNB {
+    list-style: none
+}
+
+.InThePress_reset-button_308jz {
+    @extend .Default_Layout;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.InThePress_reset-button_308jz:focus {
+    outline: none
+}
+
+.InThePress_reset-input_30xHn {
+    @extend .Default_Layout;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.InThePress_reset-anchor_2EDJu {
+    color: inherit;
+    text-decoration: none
+}
+
+@row-ruleset : {
+    *zoom: 1;
+    :after,
+    :before {
+        content: ' ';
+        display: table
+    }
+    :after {
+        clear: both
+    }
+}
+
+.InThePress_segment_3Oy-I {
+    position: relative;
+    padding: 90px 0 60px
+}
+
+@media (min-width:720px) {
+    .InThePress_segment_3Oy-I {
+        padding: 90px 0 60px
+    }
+}
+
+@media (min-width:1080px) {
+    .InThePress_segment_3Oy-I {
+        padding: 120px 0 90px
+    }
+}
+
+@media (min-width:1440px) {
+    .InThePress_segment_3Oy-I {
+        padding: 210px 0 180px
+    }
+}
+
+.InThePress_container_3SNe6 {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 1310px
+}
+
+@media (min-width:340px) {
+    .InThePress_container_3SNe6 {
+        padding: 0 30px;
+        max-width: 1340px
+    }
+}
+
+@media (min-width:720px) {
+    .InThePress_container_3SNe6 {
+        padding: 0 50px;
+        max-width: 1380px
+    }
+}
+
+@media (min-width:1080px) {
+    .InThePress_container_3SNe6 {
+        padding: 0 70px;
+        max-width: 1420px
+    }
+}
+
+.InThePress_container--full_1RJ7O {
+    max-width: none
+}
+
+@media (min-width:720px) {
+    .InThePress_container--full_1RJ7O {
+        max-width: none
+    }
+}
+
+@media (min-width:1080px) {
+    .InThePress_container--full_1RJ7O {
+        max-width: none
+    }
+}
+
+.InThePress_press_1gaPv {
+    position: relative;
+    padding: 90px 0 60px;
+    background: #f5f5f5
+}
+
+@media (min-width:720px) {
+    .InThePress_press_1gaPv {
+        padding: 90px 0 60px
+    }
+}
+
+@media (min-width:1080px) {
+    .InThePress_press_1gaPv {
+        padding: 120px 0 90px
+    }
+}
+
+@media (min-width:1440px) {
+    .InThePress_press_1gaPv {
+        padding: 210px 0 180px
+    }
+}
+
+@media (min-width:1200px) {
+    .InThePress_press_1gaPv {
+        border: 0 solid #fff;
+        border-width: 0 30px
+    }
+}
+
+@media (min-width:768px) {
+    .InThePress_press_1gaPv .InThePress_row_2QIDy {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+}
+
+@media (min-width:960px) {
+    .InThePress_press_1gaPv .InThePress_row_2QIDy {
+        padding-left: 8.33333333%;
+        padding-right: 8.33333333%
+    }
+}
+
+.InThePress_press_1gaPv .InThePress_col_NMsR7 {
+    margin: 0 0 30px
+}
+
+@media (min-width:768px) {
+    .InThePress_press_1gaPv .InThePress_col_NMsR7 {
+        width: 50%
+    }
+}
+
+.InThePress_title__heading_tKrCz {
+    font-size: 28px;
+    font-weight: 400
+}
+
+.InThePress_title__subheading_3LhF4 {
+    margin: 0 0 30px;
+    font-size: 14px
+}
+
+.InThePress_content_1ZMkN {
+    margin-top: 60px
+}
+
+.InThePress_content__logo_2H1C4 {
+    margin-bottom: 50px
+}
+
+.InThePress_content__text_1kQJH {
+    @extend .Default_Layout;
+    position: relative;
+    margin: 0 0 30px;
+    font-size: 22px;
+    color: #37383c;
+    line-height: 1.63636364;
+    letter-spacing: -.02em
+}
+
+.InThePress_content__text_1kQJH:after,
+.InThePress_content__text_1kQJH:before {
+    content: '\201C'
+}
+
+.InThePress_content__text_1kQJH:before {
+    position: absolute;
+    -webkit-transform: translateX(-9px);
+    transform: translateX(-9px)
+}
+
+.InThePress_content__link_3qVfc {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    color: #30cfbf;
+    text-transform: uppercase;
+    -webkit-transition: color .3s;
+    transition: color .3s
+}
+
+.InThePress_content__link_3qVfc:hover {
+    color: #26a699
+}
