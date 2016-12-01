@@ -1,0 +1,379 @@
+.Nope_reset-all_1htBN,
+.Nope_reset-heading_C40TV,
+.Nope_reset-list_20342 {
+    @extend .Default_Layout;
+}
+
+.Nope_reset-list_20342 {
+    list-style: none
+}
+
+.Nope_reset-button_3snn1 {
+    @extend .Default_Layout;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.Nope_reset-button_3snn1:focus {
+    outline: none
+}
+
+.Nope_reset-input_KqOBb {
+    @extend .Default_Layout;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.Nope_reset-anchor_29u4x {
+    color: inherit;
+    text-decoration: none
+}
+
+@row-ruleset : {
+    *zoom: 1;
+    :after,
+    :before {
+        content: ' ';
+        display: table
+    }
+    :after {
+        clear: both
+    }
+}
+
+.Nope_container_1Aene {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 1310px
+}
+
+@media (min-width:340px) {
+    .Nope_container_1Aene {
+        padding: 0 30px;
+        max-width: 1340px
+    }
+}
+
+@media (min-width:720px) {
+    .Nope_container_1Aene {
+        padding: 0 50px;
+        max-width: 1380px
+    }
+}
+
+@media (min-width:1080px) {
+    .Nope_container_1Aene {
+        padding: 0 70px;
+        max-width: 1420px
+    }
+}
+
+.Nope_container--full_lB5n6 {
+    max-width: none
+}
+
+@media (min-width:720px) {
+    .Nope_container--full_lB5n6 {
+        max-width: none
+    }
+}
+
+@media (min-width:1080px) {
+    .Nope_container--full_lB5n6 {
+        max-width: none
+    }
+}
+
+.Nope_nope_1CT3C {
+    display: block;
+    padding: 90px 0;
+    background: #fff
+}
+
+@media (min-width:768px) {
+    .Nope_nope_1CT3C {
+        padding: 210px 0
+    }
+}
+
+@media (min-width:1200px) {
+    .Nope_nope_1CT3C {
+        padding: 240px 0 120px
+    }
+}
+
+.Nope_nope_1CT3C .Nope_row_xlr-v {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.Nope_nope_1CT3C .Nope_controls_3jUxH {
+    white-space: nowrap
+}
+
+@media (min-width:768px) {
+    .Nope_nope_1CT3C .Nope_controls_3jUxH {
+        margin-left: 8.33333333%
+    }
+}
+
+.Nope_nope_1CT3C .Nope_col_3Cu-T {
+    width: 440px
+}
+
+@media (min-width:768px) {
+    .Nope_nope_1CT3C .Nope_col_3Cu-T {
+        margin-left: auto;
+        max-width: 100%;
+        margin-right: 8.33333333%
+    }
+}
+
+.Nope_carousel_1qnTY {
+    display: block;
+    margin: 0 -30px
+}
+
+@media (min-width:768px) {
+    .Nope_carousel_1qnTY {
+        display: none
+    }
+}
+
+.Nope_carousel__item_32d4Z {
+    padding: 0 30px;
+    font-size: 64px;
+    font-weight: 600;
+    color: #d7d7d8;
+    line-height: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.Nope_carousel__nope_W4vZY {
+    color: #52ddcd
+}
+
+.slick-list {
+    position: relative;
+    margin: 0 0 30px;
+    overflow: hidden
+}
+
+.slick-track {
+    white-space: no-wrap
+}
+
+.slick-slide {
+    display: inline-block
+}
+
+.slick-dots {
+    @extend .Default_Layout;
+    list-style: none;
+    margin: 0 0 30px 30px;
+    white-space: nowrap
+}
+
+.slick-dots li {
+    display: inline-block
+}
+
+.slick-dots li button {
+    @extend .Default_Layout;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    text-indent: -9999px
+}
+
+.slick-dots li button:focus {
+    outline: none
+}
+
+.slick-dots li button:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -2.5px 0 0 -2.5px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #e5e5e5
+}
+
+.slick-dots li.slick-active button:before {
+    background: #00dbc5
+}
+
+.Nope_arrow_26Sgr {
+    @extend .Default_Layout;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: none;
+    margin: 0 60px 0 0;
+    width: 52px;
+    height: 52px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px rgba(0, 129, 201, .05);
+    -webkit-transition: background .4s, box-shadow .4s;
+    transition: background .4s, box-shadow .4s
+}
+
+.Nope_arrow_26Sgr:focus {
+    outline: none
+}
+
+@media (min-width:768px) {
+    .Nope_arrow_26Sgr {
+        display: inline-block
+    }
+}
+
+.Nope_arrow_26Sgr>svg {
+    display: block;
+    margin: 0 auto
+}
+
+.Nope_arrow_26Sgr:first-child {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg)
+}
+
+.Nope_arrow_26Sgr:hover {
+    background: rgba(0, 129, 201, .025);
+    box-shadow: inset 0 0 0 2px rgba(0, 129, 201, .1)
+}
+
+.Nope_heading_3vDz8 {
+    margin: 0 0 30px;
+    max-width: 230px;
+    font-size: 24px;
+    line-height: 1.5
+}
+
+.Nope_heading_3vDz8>br {
+    display: none
+}
+
+@media (min-width:768px) {
+    .Nope_heading_3vDz8 {
+        margin: 0;
+        max-width: none;
+        font-weight: 600
+    }
+    .Nope_heading_3vDz8>br {
+        display: inherit
+    }
+}
+
+.Nope_text_33d2q {
+    margin: 0 0 60px;
+    font-size: 14px
+}
+
+@media (min-width:1280px) {
+    .Nope_text_33d2q {
+        font-size: 16px
+    }
+}
+
+.Nope_subline_1ToKu {
+    opacity: .4;
+    margin: 0 0 30px;
+    max-width: 200px;
+    font-size: 14px
+}
+
+.Nope_list_2-OwD {
+    display: none;
+    position: relative;
+    margin: 50px 0 50px 8.33333333%;
+    height: 150px;
+    width: 100vw;
+    font-size: 72px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, .2);
+    line-height: 150px;
+    letter-spacing: -.02em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden
+}
+
+@media (min-width:768px) {
+    .Nope_list_2-OwD {
+        display: block
+    }
+}
+
+@media (min-width:1080px) {
+    .Nope_list_2-OwD {
+        height: 200px;
+        font-size: 100px;
+        line-height: 200px
+    }
+}
+
+@media (min-width:1320px) {
+    .Nope_list_2-OwD {
+        height: 250px;
+        font-size: 124px;
+        line-height: 250px
+    }
+}
+
+.Nope_item_lAbeu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    white-space: nowrap
+}
+
+.Nope_item__text_2oqS3 {
+    margin-right: .3em
+}
+
+.Nope_item__nope_rXyGi {
+    font-weight: 600;
+    color: #52ddcd
+}
+
+.Nope_fees_3BPr- {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap
+}
+
+.Nope_fees__item_SwMls {
+    width: 50%;
+    font-size: 14px
+}

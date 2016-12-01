@@ -18,7 +18,7 @@
             link: function($scope) {
                 $scope.clickShowMenu = function(){
                     $scope.objectContainer.showMenu = true;
-                }
+                };
             }
         };
 
