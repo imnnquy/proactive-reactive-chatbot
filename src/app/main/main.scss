@@ -1,0 +1,11 @@
+@media (max-width:720px) {
+    .Desktop_Hero_Container {
+        display: none !important;
+    }
+}
+
+@media (min-width:720px) {
+    .Mobile_Hero_Container {
+        display: none !important;
+    }
+}

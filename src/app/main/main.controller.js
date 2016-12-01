@@ -6,5 +6,8 @@
         .controller('MainController', MainController);
 
     /** @ngInject */
-    function MainController() {}
+    function MainController($scope) {
+    	$scope.objectContainer = {};
+    	$scope.objectContainer.showMenu = false;
+    }
 })();
