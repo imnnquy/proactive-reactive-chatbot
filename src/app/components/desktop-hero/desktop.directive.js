@@ -3,17 +3,17 @@
 
     angular
         .module('zeroBankApp')
-        .directive('acmeNavbar', acmeNavbar);
+        .directive('desktopHero', desktopHero);
 
     /** @ngInject */
-    function acmeNavbar() {
+    function desktopHero() {
         var directive = {
             restrict: 'E',
-            templateUrl: 'app/components/navbar/navbar.html',
+            templateUrl: 'app/components/desktop-hero/desktop.html',
             scope: {
                 creationDate: '='
             },
-            controller: NavbarController,
+            controller: DesktopController,
             controllerAs: 'vm',
             bindToController: true
         };
@@ -21,7 +21,7 @@
         return directive;
 
         /** @ngInject */
-        function NavbarController() {}
+        function DesktopController() {}
     }
 
 })();
